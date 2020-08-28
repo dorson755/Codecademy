@@ -59,17 +59,17 @@ const menu = {
   },
 };
 
-menu.addDishToCourse('appetizers', 'Ceasar Salad', 4.25);
-menu.addDishToCourse('appetizers', 'Prawn Coctail', 4.25);
-menu.addDishToCourse('appetizers', 'Garlic Bread', 3.50);
+menu.addDishToCourse('appetizers', 'Conch Salad', 10.50);
+menu.addDishToCourse('appetizers', 'Grouper Fingers', 7.25);
+menu.addDishToCourse('appetizers', 'Conch Fritters', 5.50);
 
-menu.addDishToCourse('mains', 'Lasagna', 9.75);
-menu.addDishToCourse('mains', 'Ribeye Steak', 14.95);
-menu.addDishToCourse('mains', 'Fish & Chips', 12.95);
+menu.addDishToCourse('mains', 'Grouper Dinner', 22.95);
+menu.addDishToCourse('mains', 'Surf and Turf', 34.95);
+menu.addDishToCourse('mains', 'Grilled Snapper', 22.95);
 
-menu.addDishToCourse('desserts', 'Cheese Cake', 4.50);
-menu.addDishToCourse('desserts', 'Creme Brule', 4.25);
-menu.addDishToCourse('desserts', 'Cheese Board', 3.25);
+menu.addDishToCourse('desserts', 'Guava Duff', 6.00);
+menu.addDishToCourse('desserts', 'Pineapple Tart', 4.50);
+menu.addDishToCourse('desserts', 'Banana Bread', 5.15);
 
 let meal = menu.generateRandomMeal();
 
